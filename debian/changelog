@@ -1,0 +1,212 @@
+kxmlrpcclient (4:5.7.50-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Split from plasma-workspace. kxmlrpcclient is now a framework.
+
+ -- Harald Sitter <sitter@kde.org>  Fri, 13 Feb 2015 10:05:30 +0100
+
+plasma-workspace (4:5.2.0-0ubuntu2) vivid; urgency=medium
+
+  * Merge kubuntu_stable branch to adopt kglobalacceld move for
+    frameworks 5.7
+    + Force a dependency on the kglobalaccel binary package >= 5.7
+    + Also force a build dependency on >= 5.7
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 09:45:34 +0100
+
+plasma-workspace (4:5.2.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 27 Jan 2015 14:59:51 +0100
+
+plasma-workspace (4:5.1.95-0ubuntu2) vivid; urgency=medium
+
+  * update build-dep versions for plasma packages
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 16 Jan 2015 12:40:15 +0100
+
+plasma-workspace (4:5.1.95-0ubuntu1) vivid; urgency=medium
+
+  * New upstream beta release
+  * Remove dependency on libkf5globalaccel-bin
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Jan 2015 01:37:19 +0100
+
+plasma-workspace (4:5.1.2-0ubuntu2) vivid; urgency=medium
+
+  * Remove kubuntu_add-qml2-path.diff causing issues for people
+    developing Qt with self compiled or downloaded Qt import path
+    compiled into Qt5Core's QLibraryInfo should be correct
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 19 Dec 2014 13:17:31 +0100
+
+plasma-workspace (4:5.1.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 15 Dec 2014 13:27:55 +0100
+
+plasma-workspace (4:5.1.1-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Remove kubuntu_temp_fix_games_path.diff per shadeslayer. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 01 Dec 2014 06:14:46 -0800
+
+plasma-workspace (4:5.1.1-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_temp_fix_path.diff to add usr/games to PATH.
+    This is a temp fix that really needs to be fixed.  
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 19 Nov 2014 16:09:22 -0800
+
+plasma-workspace (4:5.1.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:52:36 +0100
+
+plasma-workspace (4:5.1.0.1-0ubuntu1) vivid; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+  * Add upstream_gdb-7.8-fix.diff to fix gdb 7.8 in drkonqi
+
+  [ Harald Sitter ]
+  * Add lintian overrides
+    + xmlrpcclientprivate installs no so link anymore as it is considered
+      internal and shouldn't be linked to by third parties
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+  [ Scarlett Clark ]
+  * Remove libKF5XmlRpcClientPrivate.so from -dev as it no longer exists. 
+
+  [ Jonathan Riddell ]
+  * New upstream release with fixed tar
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Oct 2014 13:51:05 +0200
+
+plasma-workspace (4:5.0.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:21:47 -0700
+
+plasma-workspace (4:5.0.1-0ubuntu1~ubuntu14.10~ppa6) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+  * Add kubuntu_startkde-qtpath.diff to tell it the path to,
+    ironically, qtpaths
+  * Add depends on frameworkintegration
+
+  [ Scarlett Clark ]
+  * Add missing lib to fix build
+  * Cleanup - remove -data and minor fixes.
+  * Update watch to http://download.kde.org
+  * Cleanup copyright-helper cruft.
+
+  [ José Manuel Santamaría Lema ]
+  * Build depend on libkf5filemetadata1-dev instead of
+    libkf5filemetadata5-dev.
+  * Add plasma-workspace.postinst in order to set the x-session-manager
+    alternative, this way in a system without any login manager and only
+    the plasma desktop installed users would be able to start plasma
+    just typing 'startx'.
+  * Add plasma-workspace-dbg in order to provide debugging symbols.
+
+  [ Rohan Garg ]
+  * Add sddm-theme-breeze package
+
+  [ Harald Sitter ]
+  * plasma-workspace relationship adjustments:
+     Depends:
+     + kde-cli-tools - needed to run screenlocker kcm (standalone that is)
+     + kio-extras - needed for wallpaper preview generation
+     + milou - needed for qml module used in krunner
+     + gdb-minimal | gdb - used by drkonqi
+     - libkf5declarative5 - library, should be picked up by shlibs
+     - kde-wallpapers-default - kdesc4 package, 5.x wallpaper is in workspace
+     - qtquick1-5-dev
+     Suggests:
+     - libkf5newstuff5 - only contains a lib that should be picked up by shlibs
+  * Drop kde-plasma-kf5.desktop as upstream now provides an xsession file
+  * Demote sddm dependency of sddm-theme-breeze to recommends. The theme is not
+    worthwhile having without sddm to load it, but there is no actual
+    dependency, the other way around however sddm-theme-breeze could provided
+    sddm-theme to resolve sddm's theme dependency, which then defacto makes a
+    circular dependency.
+
+  [ Jonathan Riddell ]
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:45:29 +0200
+
+plasma-workspace (4:4.98.0-0ubuntu1) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream RC release
+
+  [ Scarlett Clark ]
+  * Add baloo build depend 
+  * Fix filename in fix-perms and add new files to -data 
+  * add optional depends 
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 13:28:19 +0200
+
+plasma-workspace (4:4.97.0-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * Rename - drop kf5
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+  * New packages for new soname, libplasma-geolocation-interface5
+    and libweather-ion7
+  * Don't depend on qt5-default
+
+  [ Scarlett Clark ]
+  * Fix runtime depends
+  * Fix permissions
+  * change data package arch all
+  * add missing comma
+  * Fix runtime depend plasma-workspace
+  * Fix dh_fixperms
+  * Removing a fixperm for now so it will build.
+
+  [ José Manuel Santamaría Lema ]
+  * Build depend on libxcb-randr0-dev.
+  * Add the following alternative depencies to make plasma-workspace installable
+    with latest debian's qt 5.3:
+    - qml-module-qtquick2 as an alternative of qtdeclarative5-qtquick2-plugin
+    - qml-module-qtquick-window2 as an alternative of qtdeclarative5-window-plugin
+  * Improve kubuntu_add-qml2-path.diff so plasma-workspace doesn't need to
+    execute dpkg-architecture at runtime.
+
+  [ Scarlett Clark ]
+  * add qml-module-qtgraphicaleffects runtime depend 
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:55 +0100
+
+plasma-workspace-kf5 (4.96.0-0ubuntu4) trusty; urgency=medium
+
+  * New upstream release
+  * Removed kubuntu_startkde.diff applied upstream
+  * wrap-and-sort
+  * Split out libs
+  * Add -dev package
+  * Add watch file
+  * Fine tuning copyright
+  * Fix install path i386
+  * Fix rules conf and desktop file location.
+  * Remove unused install folder.
+    * Move d-bus file to -dev
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sat, 05 Apr 2014 16:50:51 +0000
+
+kde-workspace-kf5 (4.95.0-0ubuntu1~ubuntu14.04~ppa6) trusty; urgency=high
+
+  * Initial release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Apr 2014 15:55:49 +0000
