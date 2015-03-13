@@ -1,3 +1,9 @@
+kxmlrpcclient (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Split from plasma-workspace. kxmlrpcclient is now a framework.
+
+ -- Harald Sitter <sitter@kde.org>  Fri, 13 Feb 2015 10:05:30 +0100
+
 kxmlrpcclient (5.7.50-0ubuntu1) UNRELEASED; urgency=medium
 
   * Split from plasma-workspace. kxmlrpcclient is now a framework.
