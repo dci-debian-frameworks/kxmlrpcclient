@@ -1,4 +1,4 @@
-kxmlrpcclient (4:5.7.50-0ubuntu1) UNRELEASED; urgency=medium
+kxmlrpcclient (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Split from plasma-workspace. kxmlrpcclient is now a framework.
 
