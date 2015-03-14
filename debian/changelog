@@ -1,4 +1,4 @@
-kxmlrpcclient (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
+kxmlrpcclient (5.8.0-1~) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * Split from plasma-workspace. kxmlrpcclient is now a framework.
@@ -14,4 +14,7 @@ kxmlrpcclient (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
   * Drop epoch as there is no file or package name overlap with the old
     library.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 20:55:38 +0100
+  [ Maximiliano Curia ]
+  * Prepare initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 11:53:00 +0100
