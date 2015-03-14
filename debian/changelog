@@ -9,6 +9,7 @@ kxmlrpcclient (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * usr/share/locale seems to have gone missing.
     - comment out data package as it would be empty. 
+  * Remove the depend to empty -data package.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 20:55:38 +0100
 
