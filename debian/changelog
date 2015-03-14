@@ -8,15 +8,10 @@ kxmlrpcclient (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * usr/share/locale seems to have gone missing.
-    - comment out data package as it would be empty. 
+    - comment out data package as it would be empty.
   * Remove the depend to empty -data package.
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 20:55:38 +0100
-
-kxmlrpcclient (5.7.50-0ubuntu1) UNRELEASED; urgency=medium
-
   * Split from plasma-workspace. kxmlrpcclient is now a framework.
   * Drop epoch as there is no file or package name overlap with the old
     library.
 
- -- Harald Sitter <sitter@kde.org>  Fri, 13 Feb 2015 10:05:30 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 20:55:38 +0100
