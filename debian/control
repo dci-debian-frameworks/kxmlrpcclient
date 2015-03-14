@@ -24,16 +24,17 @@ Description: development files for kxmlrpcclient
  .
  This package contains the development files.
 
-Package: libkf5xmlrpcclient-data
-Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Multi-Arch: foreign
-Description: data files for kxmlrpcclient
- XML RPC client library.
- .
- This package is part of KDE Frameworks 5.
- .
- This package contains the data files.
+#usr/share/locale seems to have gone missing 
+#Package: libkf5xmlrpcclient-data
+#Architecture: all
+#Depends: ${misc:Depends}, ${shlibs:Depends}
+#Multi-Arch: foreign
+#Description: data files for kxmlrpcclient
+# XML RPC client library.
+# .
+# This package is part of KDE Frameworks 5.
+# .
+# This package contains the data files.
 
 Package: libkf5xmlrpcclient5
 Architecture: any
