@@ -18,7 +18,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kxmlrpcclient.git
 Package: libkf5xmlrpcclient-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5xmlrpcclient5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5xmlrpcclient5 (= ${binary:Version}), ${misc:Depends}, qtbase5-dev
 Description: development files for kxmlrpcclient
  XML RPC client library.
  .
