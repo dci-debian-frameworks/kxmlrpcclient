@@ -6,7 +6,7 @@
 </version>
 
 <headers>
-    /usr/include/KF5/KF5XmlRpcClient/
+    /usr/include/KF5/KXmlRpcClient/
 </headers>
 
 <libs>
