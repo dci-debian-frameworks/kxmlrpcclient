@@ -1,4 +1,4 @@
-kxmlrpcclient (5.8.0-1~) UNRELEASED; urgency=medium
+kxmlrpcclient (5.8.0-1) experimental; urgency=medium
 
   [ Harald Sitter ]
   * Split from plasma-workspace. kxmlrpcclient is now a framework.
@@ -17,4 +17,4 @@ kxmlrpcclient (5.8.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Prepare initial Debian release.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 11:53:00 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:32 +0100
