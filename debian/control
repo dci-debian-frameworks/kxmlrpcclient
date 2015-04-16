@@ -5,8 +5,9 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 1.8.0),
-               kio-dev (>= 5.8.0),
+               extra-cmake-modules (>= 5.9.0~),
+               kio-dev (>= 5.9.0~),
+               libkf5i18n-dev (>= 5.9.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev
 Standards-Version: 3.9.6
@@ -18,28 +19,15 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kxmlrpcclient.git
 Package: libkf5xmlrpcclient-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5xmlrpcclient5 (= ${binary:Version}), ${misc:Depends}, qtbase5-dev
+Depends: libkf5xmlrpcclient5 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends}
 Description: development files for kxmlrpcclient
  XML RPC client library.
  .
  This package is part of KDE Frameworks 5.
  .
  This package contains the development files.
-
-#usr/share/locale seems to have gone missing
-#Package: libkf5xmlrpcclient-data
-#Architecture: all
-#Depends: ${misc:Depends}, ${shlibs:Depends}
-#Multi-Arch: foreign
-#Description: data files for kxmlrpcclient
-# XML RPC client library.
-# .
-# This package is part of KDE Frameworks 5.
-# .
-# This package contains the data files.
-#The next line goes in Depends: for main package
-# should usr/share/locale reappear.
-#libkf5xmlrpcclient-data (= ${source:Version}),
 
 Package: libkf5xmlrpcclient5
 Architecture: any
