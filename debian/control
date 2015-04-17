@@ -29,18 +29,31 @@ Description: development files for kxmlrpcclient
  .
  This package contains the development files.
 
+Package: libkf5xmlrpcclient-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: data files for kxmlrpcclient
+ XML RPC client library.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the data files.
+
 Package: libkf5xmlrpcclient5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         libkf5xmlrpcclient-data (= ${source:Version}),
 Description: framework providing an xml rpc client library
  XML RPC client library.
  .
  This package is part of KDE Frameworks 5.
 
 Package: libkf5xmlrpcclient-dbg
-Priority: extra
 Section: debug
+Priority: extra
 Architecture: any
 Multi-Arch: same
 Depends: libkf5xmlrpcclient5 (= ${binary:Version}), ${misc:Depends}
