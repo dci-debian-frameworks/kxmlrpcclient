@@ -33,6 +33,8 @@ Package: libkf5xmlrpcclient-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: plasma-workspace (<= 4:5.2.2-1)
+Replaces: plasma-workspace (<= 4:5.2.2-1)
 Description: data files for kxmlrpcclient
  XML RPC client library.
  .
