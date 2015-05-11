@@ -1,6 +1,7 @@
 kxmlrpcclient (5.10.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.0).
+  * New upstream patch: 0001-add-LGPL-file.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 13:04:01 +0200
 
