@@ -6,6 +6,17 @@ kxmlrpcclient (5.11.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jun 2015 12:44:52 +0200
 
+kxmlrpcclient (5.10.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.0).
+  * New upstream patch: 0001-add-LGPL-file.patch
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 27 May 2015 17:09:27 +0200
+
 kxmlrpcclient (5.9.0-1) experimental; urgency=medium
 
   * New upstream release (5.9.0).
