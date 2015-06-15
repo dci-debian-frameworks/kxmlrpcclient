@@ -1,3 +1,9 @@
+kxmlrpcclient (5.10.0-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Remove  0001-add-LGPL-file.patch, applied upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 15 Jun 2015 06:40:23 +0200
+
 kxmlrpcclient (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]
