@@ -1,6 +1,7 @@
 kxmlrpcclient (5.14.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * new upstream release
+  * Fix symbols file
 
  -- Clive Johnston <clivejo@aol.com>  Mon, 14 Sep 2015 20:06:51 +0100
 
