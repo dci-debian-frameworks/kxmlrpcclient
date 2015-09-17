@@ -1,9 +1,9 @@
-kxmlrpcclient (5.14.0-0ubuntu1) UNRELEASED; urgency=medium
+kxmlrpcclient (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
   * Fix symbols file
 
- -- Clive Johnston <clivejo@aol.com>  Mon, 14 Sep 2015 20:06:51 +0100
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:28:37 +0100
 
 kxmlrpcclient (5.13.0-0ubuntu1) wily; urgency=medium
 
