@@ -1,8 +1,8 @@
-kxmlrpcclient (5.16.0-1~) UNRELEASED; urgency=medium
+kxmlrpcclient (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Nov 2015 11:47:41 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:20 +0100
 
 kxmlrpcclient (5.15.0-1) unstable; urgency=medium
 
