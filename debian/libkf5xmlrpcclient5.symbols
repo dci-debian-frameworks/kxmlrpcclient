@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14 amd64
+# SymbolsHelper-Confirmed: 5.14.0 amd64
 libKF5XmlRpcClient.so.5 libkf5xmlrpcclient5 #MINVER#
  _ZN7KXmlRpc5Query11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.7.50
  _ZN7KXmlRpc5Query11qt_metacastEPKc@Base 5.7.50
