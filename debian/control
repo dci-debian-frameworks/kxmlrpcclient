@@ -51,14 +51,3 @@ Description: framework providing an xml rpc client library
  XML RPC client library.
  .
  This package is part of KDE Frameworks 5.
-
-Package: libkf5xmlrpcclient-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5xmlrpcclient5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kxmlrpcclient
- XML RPC client library.
- .
- This package contains the debug symbols.
