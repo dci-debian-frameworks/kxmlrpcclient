@@ -1,3 +1,20 @@
+kxmlrpcclient (5.20.0-1~1.gbp23b069) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @23b069fd91ef8a84a58cdd9621117a406966edcd **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 11:02:48 +0200
+
 kxmlrpcclient (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
