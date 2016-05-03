@@ -3,4 +3,4 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=libkf5xmlrpcclient-dbg
+	$(overridden_command) --dbgsym-migration='libkf5xmlrpcclient-dbg (<= 5.19.0-1~~)'

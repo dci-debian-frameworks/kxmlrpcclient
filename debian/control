@@ -5,15 +5,15 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
-               kio-dev (>= 5.18.0~),
-               libkf5i18n-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               kio-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.19.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kxmlrpcclient
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kxmlrpcclient.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kxmlrpcclient.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kxmlrpcclient.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kxmlrpcclient.git
 
 Package: libkf5xmlrpcclient-dev
 Section: libdevel
@@ -51,14 +51,3 @@ Description: framework providing an xml rpc client library
  XML RPC client library.
  .
  This package is part of KDE Frameworks 5.
-
-Package: libkf5xmlrpcclient-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5xmlrpcclient5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kxmlrpcclient
- XML RPC client library.
- .
- This package contains the debug symbols.
