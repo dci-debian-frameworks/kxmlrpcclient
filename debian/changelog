@@ -1,6 +1,6 @@
-kxmlrpcclient (5.21.0-1~1.gbp59ae31) UNRELEASED; urgency=medium
+kxmlrpcclient (5.22.0-1~1.gbp35e9cb) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @59ae31ecaeb1de9f65d58092df676447ab0d190f **
+  ** SNAPSHOT build @35e9cbe2be2f645aa8eb552a094d09600740f4ff **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -10,6 +10,8 @@ kxmlrpcclient (5.21.0-1~1.gbp59ae31) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -18,7 +20,7 @@ kxmlrpcclient (5.21.0-1~1.gbp59ae31) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 00:02:09 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 18:02:10 +0200
 
 kxmlrpcclient (5.19.0-1) experimental; urgency=medium
 
