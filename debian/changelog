@@ -1,3 +1,11 @@
+kxmlrpcclient (5.27.0-1~1.gbp40514c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @40514c9028804cdca022b11e1dd264d72b39155f **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 18:02:34 +0200
+
 kxmlrpcclient (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
