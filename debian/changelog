@@ -1,10 +1,12 @@
-kxmlrpcclient (5.28.0-1~1.gbp70b9fc) UNRELEASED; urgency=medium
+kxmlrpcclient (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @70b9fc7e6ee499efd872cb207102f38c13259b6e **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 18:02:39 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:06:37 +0100
 
 kxmlrpcclient (5.27.0-1) unstable; urgency=medium
 
