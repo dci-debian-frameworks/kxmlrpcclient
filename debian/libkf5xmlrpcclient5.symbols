@@ -1,5 +1,14 @@
-# SymbolsHelper-Confirmed: 5.14.0 amd64
+# SymbolsHelper-Confirmed: 5.36.0 amd64
 libKF5XmlRpcClient.so.5 libkf5xmlrpcclient5 #MINVER#
+ _ZN7KXmlRpc12QueryPrivate10markupCallERK7QStringRK5QListI8QVariantE@Base 5.36.0
+ _ZN7KXmlRpc12QueryPrivate10slotResultEP4KJob@Base 5.36.0
+ _ZN7KXmlRpc12QueryPrivate15isFaultResponseERK12QDomDocument@Base 5.36.0
+ _ZN7KXmlRpc12QueryPrivate17isMessageResponseERK12QDomDocument@Base 5.36.0
+ _ZN7KXmlRpc12QueryPrivate18parseFaultResponseERK12QDomDocument@Base 5.36.0
+ _ZN7KXmlRpc12QueryPrivate20parseMessageResponseERK12QDomDocument@Base 5.36.0
+ _ZN7KXmlRpc12QueryPrivate7marshalERK8QVariant@Base 5.36.0
+ _ZN7KXmlRpc12QueryPrivate8slotDataEPN3KIO3JobERK10QByteArray@Base 5.36.0
+ _ZN7KXmlRpc12QueryPrivate9demarshalERK11QDomElement@Base 5.36.0
  _ZN7KXmlRpc5Query11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.7.50
  _ZN7KXmlRpc5Query11qt_metacastEPKc@Base 5.7.50
  _ZN7KXmlRpc5Query16staticMetaObjectE@Base 5.7.50
@@ -35,11 +44,17 @@ libKF5XmlRpcClient.so.5 libkf5xmlrpcclient5 #MINVER#
  _ZN7KXmlRpc6ClientD0Ev@Base 5.7.50
  _ZN7KXmlRpc6ClientD1Ev@Base 5.7.50
  _ZN7KXmlRpc6ClientD2Ev@Base 5.7.50
+ _ZN7KXmlRpc6ResultC1Ev@Base 5.36.0
+ _ZN7KXmlRpc6ResultC2Ev@Base 5.36.0
  _ZNK7KXmlRpc5Query10metaObjectEv@Base 5.7.50
  _ZNK7KXmlRpc6Client10metaObjectEv@Base 5.7.50
  _ZNK7KXmlRpc6Client19isDigestAuthEnabledEv@Base 5.7.50
  _ZNK7KXmlRpc6Client3urlEv@Base 5.7.50
  _ZNK7KXmlRpc6Client9userAgentEv@Base 5.7.50
+ _ZNK7KXmlRpc6Result11errorStringEv@Base 5.36.0
+ _ZNK7KXmlRpc6Result4dataEv@Base 5.36.0
+ _ZNK7KXmlRpc6Result7successEv@Base 5.36.0
+ _ZNK7KXmlRpc6Result9errorCodeEv@Base 5.36.0
  _ZTIN7KXmlRpc5QueryE@Base 5.7.50
  _ZTIN7KXmlRpc6ClientE@Base 5.7.50
  _ZTSN7KXmlRpc5QueryE@Base 5.7.50
