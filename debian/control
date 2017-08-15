@@ -57,6 +57,7 @@ Description: framework providing an xml rpc client library (documentation)
  This package is part of KDE Frameworks 5.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5xmlrpcclient5
 Architecture: any
