@@ -36,7 +36,8 @@ Description: data files for kxmlrpcclient
 Package: libkf5xmlrpcclient-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5xmlrpcclient5 (= ${binary:Version}),
+Depends: kio-dev,
+         libkf5xmlrpcclient5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends},
 Recommends: libkf5xmlrpcclient-doc (= ${source:Version})
